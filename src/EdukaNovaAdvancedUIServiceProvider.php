@@ -12,7 +12,7 @@ class EdukaNovaAdvancedUIServiceProvider extends EdukaServiceProvider
          * This codebase line will activate your course views, and
          * disable the default eduka ones
          **/
-        $this->loadEdukaViews(__DIR__.'/../resources/views');
+        //$this->loadEdukaViews(__DIR__.'/../resources/views');
     }
 
     public function register()

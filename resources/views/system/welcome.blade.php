@@ -7,7 +7,7 @@
 @section('body')
 	<div class="flex h-screen">
 		<div class="m-auto">
-			<h3 class="text-3xl">Pre-Launch - Eduka system page</h3>
+			<h3 class="text-3xl">Welcome to Eduka - No course loaded</h3>
 		</div>
 	</div>
 @endsection
