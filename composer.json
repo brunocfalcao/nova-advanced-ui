@@ -18,7 +18,7 @@
     "require": {
         "php": "^7.4|^8.0",
         "brunocfalcao/eduka-nereus": "dev-master",
-        "wildbit/swiftmailer-postmark": "^3.3"        
+        "spatie/laravel-honeypot": "^3.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.0"
