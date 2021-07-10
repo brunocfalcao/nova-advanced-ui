@@ -8,15 +8,23 @@ class EdukaNovaAdvancedUIServiceProvider extends EdukaServiceProvider
 {
     public function boot()
     {
-        /*
-         * This codebase line will activate your course views, and
-         * disable the default eduka ones
-         **/
-        //$this->loadEdukaViews(__DIR__.'/../resources/views');
+        $this->customViewNamespace(__DIR__.'/../resources/views', 'site');
+
+        $this->publishResources();
+
+        // Load extra routes test.
+        //$this->extraRoutes(__DIR__.'/../routes/extra.php');
     }
 
     public function register()
     {
         //
+    }
+
+    protected function publishResources()
+    {
+        $this->publishes([
+            __DIR__.'/../resources/overrides/' => base_path('/'),
+        ], 'nova-advanced-ui-assets');
     }
 }

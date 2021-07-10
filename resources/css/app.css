@@ -1,4 +1,11 @@
 /* ./resources/css/app.css */
 @tailwind base;
+
 @tailwind components;
+
 @tailwind utilities;
+/* --- /end --- */
+
+a {
+	@apply text-secondary-600 underline font-bold;
+}
