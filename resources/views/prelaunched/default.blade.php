@@ -86,14 +86,28 @@
                                 </div>
                             </button>
 
-                            <div class="flex flex-wrap sm:flex-no-wrap justify-center items-center text-red-500">
+                            <div class="flex flex-wrap sm:flex-no-wrap justify-center items-center text-secondary-500 pt-2">
                                 @error('email')
                                 {{ $message }}
                                 @enderror
                             </div>
                         </form>
-                        @endroutename
                         <!-- /Early subscription form -->
+                        @endroutename
+                        @routename('prelaunched.subscribed')
+                        <ul class="py-5 space-y-5 text-lg">
+                            <li class="flex space-x-5 items-start">
+                                <span class="w-12 flex-shrink-0">
+                                    <svg xmlns="http://www.w3.org/2000/svg" class="text-secondary-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
+                                    </svg>
+                                </span>
+                                <span class="text-secondary-500 pt-3 font-bold">
+                                    Thank you for subscribing! I'll be in touch!
+                                </span>
+                            </li>
+                        </ul>
+                        @endroutename
                         <div class="flex flex-col md:flex-row py-4 lg:py-8 space-x-6">
                             <div class="hidden lg:flex space-x-2 items-center">
                                 <span class="w-6">
