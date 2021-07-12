@@ -1,7 +1,5 @@
 <?php
 
-namespace Eduka\NovaAdvancedUI;
-
 use Eduka\Abstracts\EdukaServiceProvider;
 
 class EdukaNovaAdvancedUIServiceProvider extends EdukaServiceProvider
@@ -25,6 +23,6 @@ class EdukaNovaAdvancedUIServiceProvider extends EdukaServiceProvider
     {
         $this->publishes([
             __DIR__.'/../resources/overrides/' => base_path('/'),
-        ], 'nova-advanced-ui-assets');
+        ], );
     }
 }
