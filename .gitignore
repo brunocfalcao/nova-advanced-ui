@@ -1,8 +1,2 @@
-build
-composer.lock
-docs
-vendor
-coverage
-node_modules
-public
-public/*.*
+/node_modules
+/public/*
