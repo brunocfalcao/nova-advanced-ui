@@ -296,7 +296,8 @@
                 </div>
             </footer>
             <!-- /Footer section -->
-
         </div>
+
+        <script type="text/javascript" src="/vendor/nova-advanced-ui/js/retina.min.js"></script>
     </x-eduka::body>
 </x-eduka::site>
