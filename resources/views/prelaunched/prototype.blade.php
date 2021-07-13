@@ -43,12 +43,12 @@
             <!-- Responsive outer container -->
             <div class="w-full bg-background-900 px-12 xl:px-32 py-12">
                 <!-- Inner container -->
-                <div class="flex flex-wrap md:flex-nowrap gap-16">
+                <div class="flex flex-wrap md:flex-nowrap gap-6 sm:gap-16">
                     <!-- Left hero container -->
                     <!-- Title and subtitle -->
                     <div class="w-full md:w-1/2">
-                        <p class="text-5xl font-bold text-primary-400 italic leading-tight pb-6">The <span class="text-secondary-600">aspirin</span> for your Nova UI coding <span class="text-secondary-600">headaches</span></p>
-                        <p class="text-2xl font-bold text-primary-100 leading-snug">The course that will empower you to create killer, beautiful, and enhanced UI components in Laravel Nova</p>
+                        <p class="text-4xl text-center sm:text-left sm:text-5xl font-bold text-primary-400 italic leading-tight pb-6">The <span class="text-secondary-600">aspirin</span> for your Nova UI coding <span class="text-secondary-600">headaches</span></p>
+                        <p class="text-2xl text-center sm:text-left font-bold text-primary-100 leading-snug">The course that will empower you to create killer, beautiful, and enhanced UI components in Laravel Nova</p>
                         <!-- /Title and subtitle -->
                         <!-- Features -->
                         <div class="py-12">
@@ -101,10 +101,9 @@
                         <!-- /Form disclaimers -->
                     </div>
                     <!-- /Left hero container -->
-
                     <!-- Right hero container -->
                     <div class="w-full md:w-1/2 order-first md:order-last">
-                        <img src="@image_placeholder_url(640,640)" class="" />
+                        <img src="@image_placeholder_url(640,640)" class="rounded-lg" />
                     </div>
                     <!-- /Right hero container -->
                 </div>
