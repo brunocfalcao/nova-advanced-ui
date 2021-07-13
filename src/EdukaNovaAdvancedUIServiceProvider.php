@@ -13,7 +13,7 @@ class EdukaNovaAdvancedUIServiceProvider extends EdukaServiceProvider
         $this->publishResources();
 
         // Load extra routes test.
-        //$this->extraRoutes(__DIR__.'/../routes/extra.php');
+        $this->extraRoutes(__DIR__.'/../routes/extra.php');
     }
 
     public function register()
