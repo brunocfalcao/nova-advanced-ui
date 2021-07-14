@@ -31,15 +31,15 @@
         <x-eduka::responsive-breakpoints></x-eduka::responsive-breakpoints>
         <div class="px-4 sm:px-8 md:px-12 xl:container mx-auto">
             <!-- Logo header -->
-            <div class="pt-12 bg-background-900">
+            <section class="pt-12 bg-background-900">
                 <div class="w-full bg-background-900">
                     <img class="h-12 mx-auto" src="/vendor/nova-advanced-ui/images/logo.png" alt="{{ course()->name }}">
                 </div>
-            </div>
+            </section>
             <!-- /Logo header -->
             <!-- Hero -->
             <!-- Responsive outer container -->
-            <div class="w-full bg-background-900 px-12 xl:px-32 py-12">
+            <section class="w-full bg-background-900 px-12 xl:px-32 py-12">
                 <!-- Inner container -->
                 <div class="flex flex-wrap md:flex-nowrap gap-6 sm:gap-16">
                     <!-- Left hero container -->
@@ -106,25 +106,39 @@
                     <!-- /Right hero container -->
                 </div>
                 <!-- /Inner container -->             
-            </div>
+            </section>
+            <!-- /Responsive outer container -->
             <!-- /Hero -->
             <!-- Testimonial section -->
-            <section class="bg-primary-300 text-coolgray-600 px-6 lg:px-8 py-14">
-                <div class="max-w-screen-lg mx-auto flex flex-col md:flex-row items-start space-y-6 md:space-y-0 md:space-x-6 lg:space-x-10">
-                    <img src="/vendor/nova-advanced-ui/images/me.jpg" alt="Testimonial" class="mx-auto md:mx-0 rounded-full w-40 relative -top-2">
-                    <div class="border-l-4 border-primary-200 pl-4 md:pl-8">
-                        <p class="text-lg lg:text-xl font-bold italic">After creating the first-ever premium Laravel Nova course, Mastering Nova, I'm back to record a new community-requested course about
-                            how to create and extend the Laravel Nova UI framework, so you will never be stuck to create different Vue components that will match your needs inside Nova!
-                        </p>
-                        <div class="mt-4">
-                            <p class="text-lg font-bold text-coolgray-700 block"><a class="link" href="https://twitter.com/brunocfalcao" target="_blank">@htmlentities('Bruno Falcão')</a></p>
-                            <p class="text-base font-semibold text-coolgray-500 block">Creator of <a href="https://www.masteringnova.com" class="link" target="_blank">Mastering Nova</a>, <a href="https://github.com/laraning/nova-time-field" class="link" target="_blank">Nova Time Field</a>, <a href="https://www.laraflash.com" class="link" target="_blank">Laraflash</a>, <a href="https://www.laraning.com" class="link" target="_blank">Laraning</a> and <a href="https://github.com/brunocfalcao/blade-feather-icons" class="link" target="_blank">Feather Icons Blade Ui Kit</a></p>
-                        </div>
+            <section class="px-12 xl:px-32 py-12 bg-primary-300 text-coolgray-600">
+                <div class="flex gap-8 flex-wrap sm:flex-nowrap">
+                    <img src="/vendor/nova-advanced-ui/images/me.jpg" class="rounded-full w-40 h-40" />
+                    <div class="sm:border-l-4 border-primary-200 sm:pl-8">
+                        <p class="text-lg lg:text-xl font-bold italic">After creating the first-ever premium Laravel Nova course, Mastering Nova, I'm back to record a new community-requested course about how to create and extend the Laravel Nova UI framework, so you will never be stuck to create different Vue components that will match your needs inside Nova!</p>
+                        <p class="text-lg font-bold text-coolgray-700 pt-6"><a class="link" href="https://twitter.com/brunocfalcao" target="_blank">@htmlentities('Bruno Falcão')</a></p>
+                        <p class="text-base font-semibold text-coolgray-500">Creator of <a href="https://www.masteringnova.com" class="link" target="_blank">Mastering Nova</a>, <a href="https://github.com/laraning/nova-time-field" class="link" target="_blank">Nova Time Field</a>, <a href="https://www.laraflash.com" class="link" target="_blank">Laraflash</a>, <a href="https://www.laraning.com" class="link" target="_blank">Laraning</a> and <a href="https://github.com/brunocfalcao/blade-feather-icons" class="link" target="_blank">Feather Icons Blade Ui Kit</a></p>
                     </div>
                 </div>
             </section>
             <!-- /Testimonial section -->
-
+            <!-- CTA section -->
+            <section class="flex items-center justify-center p-3 text-white bg-secondary-600">
+                <p class="ml-3 text-sm text-center font-bold">
+                    This course will cover both the current Orion (3.x) version and the new Nova version planned to be released this year
+                </p>
+            </section>
+            <!-- /CTA section -->
+            <!-- Features section -->
+            <section class="px-12 xl:px-32 py-12 bg-white text-coolgray-600">
+                <p class="text-center text-2xl sm:text-3xl md:text-4xl text-coolgray-700 font-bold">Hidden Gems all the way</p>
+                <p class="text-center text-xl lg:text-xl text-coolgray-600 mt-2">Create your Nova UI components using Vue</p>
+                <div class="flex flex-wrap">
+                    <div class="w-full max-w-md flex-auto h-16 bg-primary-500">1</div>
+                    <div class="w-full max-w-md flex-auto h-16 bg-primary-300">2</div>
+                    <div class="w-full max-w-md flex-auto h-16 bg-primary-500">3</div>
+                </div>
+            </section>
+            <!-- /Features section -->
         </div>
         <script type="text/javascript" src="/vendor/nova-advanced-ui/js/retina.min.js"></script>
     </x-eduka::body>
