@@ -252,7 +252,227 @@
                         <p class="text-right align-bottom">Being recorded</p>
                     </div>
                     <!-- /Video tutorial -->
-
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Field events that you need to know, how to they work together with other Fields</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">The Field Vue Component structure and Props deep dive</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Extending the Field Vue Component without breaking changes</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Making Async calls and updating your own Field data</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Emiting client events to other Fields</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Changing the Field behavior in Index and Detail views</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Adding Vue Components to other screen locations dynamically</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Creating an inline Form Structure</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Create a link button and use Vue route links</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Using the Portal component to create a custom Modal</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Dynamic Vue Components using the same UI Component</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Transforming an NPM package into a Nova UI Component ready to be used</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Creating a Tool that will render a Blade View so you are 100% free of Vue</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Creating custom Filters</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Installing the remaining Tailwind CSS utility classes</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Changing the Nova Theme beyond the standards</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Adding Server side properties to be used in the UI Components</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
                 </div>
             </section>
         </div>
