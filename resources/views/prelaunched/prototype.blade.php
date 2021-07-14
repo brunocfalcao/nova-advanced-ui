@@ -22,9 +22,9 @@
         -->
         <!-- /Social media -->
 
-        <!-- Favicon --> 
+        <!-- Favicon -->
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />        
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <!-- /Favicon -->
     </x-eduka::head>
     <x-eduka::body class="font-primary bg-repeat heropattern-topography-primary-950 antialised bg-background-900">
@@ -105,18 +105,18 @@
                     </div>
                     <!-- /Right hero container -->
                 </div>
-                <!-- /Inner container -->             
+                <!-- /Inner container -->
             </section>
             <!-- /Responsive outer container -->
             <!-- /Hero -->
             <!-- Testimonial section -->
-            <section class="px-12 xl:px-32 py-12 bg-primary-300 text-coolgray-600">
+            <section class="px-12 xl:px-32 py-12 bg-primary-300 text-gray-600">
                 <div class="flex gap-8 flex-wrap sm:flex-nowrap">
                     <img src="/vendor/nova-advanced-ui/images/me.jpg" class="rounded-full w-40 h-40" />
                     <div class="sm:border-l-4 border-primary-200 sm:pl-8">
                         <p class="text-lg lg:text-xl font-bold italic">After creating the first-ever premium Laravel Nova course, Mastering Nova, I'm back to record a new community-requested course about how to create and extend the Laravel Nova UI framework, so you will never be stuck to create different Vue components that will match your needs inside Nova!</p>
-                        <p class="text-lg font-bold text-coolgray-700 pt-6"><a class="link" href="https://twitter.com/brunocfalcao" target="_blank">@htmlentities('Bruno Falcão')</a></p>
-                        <p class="text-base font-semibold text-coolgray-500">Creator of <a href="https://www.masteringnova.com" class="link" target="_blank">Mastering Nova</a>, <a href="https://github.com/laraning/nova-time-field" class="link" target="_blank">Nova Time Field</a>, <a href="https://www.laraflash.com" class="link" target="_blank">Laraflash</a>, <a href="https://www.laraning.com" class="link" target="_blank">Laraning</a> and <a href="https://github.com/brunocfalcao/blade-feather-icons" class="link" target="_blank">Feather Icons Blade Ui Kit</a></p>
+                        <p class="text-lg font-bold text-gray-700 pt-6"><a class="link" href="https://twitter.com/brunocfalcao" target="_blank">@htmlentities('Bruno Falcão')</a></p>
+                        <p class="text-base font-semibold text-gray-500">Creator of <a href="https://www.masteringnova.com" class="link" target="_blank">Mastering Nova</a>, <a href="https://github.com/laraning/nova-time-field" class="link" target="_blank">Nova Time Field</a>, <a href="https://www.laraflash.com" class="link" target="_blank">Laraflash</a>, <a href="https://www.laraning.com" class="link" target="_blank">Laraning</a> and <a href="https://github.com/brunocfalcao/blade-feather-icons" class="link" target="_blank">Feather Icons Blade Ui Kit</a></p>
                     </div>
                 </div>
             </section>
@@ -129,9 +129,9 @@
             </section>
             <!-- /CTA section -->
             <!-- Features section -->
-            <section class="px-12 xl:px-32 py-12 bg-white text-coolgray-600">
-                <p class="text-center text-2xl sm:text-3xl md:text-4xl text-coolgray-700 font-bold">Hidden Gems all the way</p>
-                <p class="text-center text-xl lg:text-xl text-coolgray-600 pt-2">Create your Nova UI components using Vue</p>
+            <section class="px-12 xl:px-32 py-12 bg-white text-gray-600">
+                <p class="text-center text-2xl sm:text-3xl md:text-4xl text-gray-700 font-bold">Hidden Gems all the way</p>
+                <p class="text-center text-xl lg:text-xl text-gray-600 pt-2">Create your Nova UI components using Vue</p>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 pt-12">
                     <!-- Feature box -->
                     <div>
@@ -193,6 +193,68 @@
                 </div>
             </section>
             <!-- /Features section -->
+            <!-- Videos section -->
+
+            <!-- /Videos section -->
+            <section class="px-12 xl:px-32 py-12 bg-background-800 text-gray-600">
+                <p class="text-center text-2xl sm:text-3xl md:text-4xl text-gray-100 font-bold">Video Tutorials</p>
+                <p class="text-center text-xl lg:text-xl text-gray-300 pt-2">Subject to change along the recordings progress</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 pt-12">
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">Installing Nova as a local repository and deactivating Vue Production mode</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">What Nova mixins are available and their purpose</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">The Nova UI booting process - JS architecture and file structure</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+                    <!-- Video tutorial -->
+                    <div class="p-3 bg-gray-900 rounded-lg flex flex-col justify-between">
+                        <div class="flex gap-6 items-start">
+                            <svg class="flex-shrink-0 s-14 text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 4v16M17 4v16M3 8h4m10 0h4M3 12h18M3 16h4m10 0h4M4 20h16a1 1 0 001-1V5a1 1 0 00-1-1H4a1 1 0 00-1 1v14a1 1 0 001 1z" />
+                            </svg>
+                            <div>
+                                <p class="text-gray-100 text-xl">The FormField and HandlesValidation Mixins - Why are they important</p>
+                            </div>
+                        </div>
+                        <p class="text-right align-bottom">Being recorded</p>
+                    </div>
+                    <!-- /Video tutorial -->
+
+                </div>
+            </section>
         </div>
         <script type="text/javascript" src="/vendor/nova-advanced-ui/js/retina.min.js"></script>
     </x-eduka::body>
