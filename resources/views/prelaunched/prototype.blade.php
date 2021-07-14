@@ -194,8 +194,6 @@
             </section>
             <!-- /Features section -->
             <!-- Videos section -->
-
-            <!-- /Videos section -->
             <section class="px-12 xl:px-32 py-12 bg-background-800 text-gray-600">
                 <p class="text-center text-2xl sm:text-3xl md:text-4xl text-gray-100 font-bold">Video Tutorials</p>
                 <p class="text-center text-xl lg:text-xl text-gray-300 pt-2">Subject to change along the recordings progress</p>
@@ -473,6 +471,49 @@
                         <p class="text-right align-bottom">Being recorded</p>
                     </div>
                     <!-- /Video tutorial -->
+                </div>
+            </section>
+            <!-- /Videos section -->
+            <!-- FAQ section -->
+            <section class="px-12 xl:px-32 py-12 bg-secondary-500">
+                <p class="text-center text-2xl sm:text-3xl md:text-4xl text-white font-bold">Questions ?</p>
+                <p class="text-center text-xl lg:text-xl text-gray-100 pt-2">Details on my course below</p>
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 pt-12">
+                    <!-- Question & answer -->
+                    <div class="px-4 md:px-8 lg:px-12 py-6 lg:py-12 bg-gray-200 rounded-lg">
+                        <h3 class="text-xl font-bold text-coolgray-700 block">Why should I buy this course?</h3>
+                        <p class="mt-3">If you are already using Nova and you are stuck in developing UI components that will fit your needs then this course is for you. You will learn how the Nova UI was built, and how you can create simple and advanced UI Components like Fields, buttons, Tools, and much more</p>
+                    </div>
+                    <!-- /Question & answer -->
+                    <!-- Question & answer -->
+                    <div class="px-4 md:px-8 lg:px-12 py-6 lg:py-12 bg-gray-200 rounded-lg">
+                        <h3 class="text-xl font-bold text-coolgray-700 block">I am new to Nova. Is this course for me?</h3>
+                        <p class="mt-3">Unfortunately it is not. This course needs intermediate experience in using Laravel Nova and Vue. You should look at my other course, <a class="link" href="https://www.masteringnova.com" target="_blank">Mastering Nova</a>, and if you buy it, you'll have 50% discount in this one.</p>
+                    </div>
+                    <!-- /Question & answer -->
+                    <!-- Question & answer -->
+                    <div class="px-4 md:px-8 lg:px-12 py-6 lg:py-12 bg-gray-200 rounded-lg">
+                        <h3 class="text-xl font-bold text-coolgray-700 block">When will this course be released?</h3>
+                        <p class="mt-3">There isn't an exact launch date yet, clearly, it will be released this year. I am currently recording the video tutorials, and hopefully will release the course on an early-access special discount base</p>
+                    </div>
+                    <!-- /Question & answer -->
+                    <!-- Question & answer -->
+                    <div class="px-4 md:px-8 lg:px-12 py-6 lg:py-12 bg-gray-200 rounded-lg">
+                        <h3 class="text-xl font-bold text-coolgray-700 block">I bought your previous Mastering Nova course. Can I have a discount on this one?</h3>
+                        <p class="mt-3">Yes you will! You will receive a <underline>personal discount of 50%</underline> (non-cumulative) for this course to thank you for your loyalty!</p>
+                    </div>
+                    <!-- /Question & answer -->
+                    <!-- Question & answer -->
+                    <div class="px-4 md:px-8 lg:px-12 py-6 lg:py-12 bg-gray-200 rounded-lg">
+                        <h3 class="text-xl font-bold text-coolgray-700 block">How much will this course cost?</h3>
+                        <p class="mt-3">I don't know at the moment. But don't worry! You will have plenty of discount options and also purchase power parity!</p>
+                    </div>
+                    <!-- /Question & answer -->
+                    <!-- Question & answer -->
+                    <div class="px-4 md:px-8 lg:px-12 py-6 lg:py-12 bg-gray-200 rounded-lg">
+                        <h3 class="text-xl font-bold text-coolgray-700 block">Who made your amazing logo?</h3>
+                        <p class="mt-3"><a href="https://twitter.com/caneco" class="link" target="_blank">Caneco</a>. Who else :) ?</p>
+                    </div>
                 </div>
             </section>
         </div>
