@@ -30,7 +30,6 @@
     <x-eduka::body class="font-primary bg-repeat heropattern-topography-primary-950 antialised bg-background-900">
         <x-eduka::responsive-breakpoints></x-eduka::responsive-breakpoints>
         <div class="px-4 sm:px-8 md:px-12 xl:container mx-auto">
-
             <!-- Logo header -->
             <div class="pt-12 bg-background-900">
                 <div class="w-full bg-background-900">
@@ -38,7 +37,6 @@
                 </div>
             </div>
             <!-- /Logo header -->
-
             <!-- Hero -->
             <!-- Responsive outer container -->
             <div class="w-full bg-background-900 px-12 xl:px-32 py-12">
@@ -84,7 +82,7 @@
                         </form>
                         <!-- /Subscription Form -->
                         <!-- Form disclaimers -->
-                        <div class="flex gap-4">
+                        <div class="flex gap-4 justify-center md:justify-start">
                             <div class="flex items-center gap-3">
                                 <svg class="h-6 w-6 text-secondary-200" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -110,7 +108,22 @@
                 <!-- /Inner container -->             
             </div>
             <!-- /Hero -->
-        </div>
+            <!-- Testimonial section -->
+            <section class="bg-primary-300 text-coolgray-600 px-6 lg:px-8 py-14">
+                <div class="max-w-screen-lg mx-auto flex flex-col md:flex-row items-start space-y-6 md:space-y-0 md:space-x-6 lg:space-x-10">
+                    <img src="/vendor/nova-advanced-ui/images/me.jpg" alt="Testimonial" class="mx-auto md:mx-0 rounded-full w-40 relative -top-2">
+                    <div class="border-l-4 border-primary-200 pl-4 md:pl-8">
+                        <p class="text-lg lg:text-xl font-bold italic">After creating the first-ever premium Laravel Nova course, Mastering Nova, I'm back to record a new community-requested course about
+                            how to create and extend the Laravel Nova UI framework, so you will never be stuck to create different Vue components that will match your needs inside Nova!
+                        </p>
+                        <div class="mt-4">
+                            <p class="text-lg font-bold text-coolgray-700 block"><a class="link" href="https://twitter.com/brunocfalcao" target="_blank">@htmlentities('Bruno Falcão')</a></p>
+                            <p class="text-base font-semibold text-coolgray-500 block">Creator of <a href="https://www.masteringnova.com" class="link" target="_blank">Mastering Nova</a>, <a href="https://github.com/laraning/nova-time-field" class="link" target="_blank">Nova Time Field</a>, <a href="https://www.laraflash.com" class="link" target="_blank">Laraflash</a>, <a href="https://www.laraning.com" class="link" target="_blank">Laraning</a> and <a href="https://github.com/brunocfalcao/blade-feather-icons" class="link" target="_blank">Feather Icons Blade Ui Kit</a></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- /Testimonial section -->
 
         </div>
         <script type="text/javascript" src="/vendor/nova-advanced-ui/js/retina.min.js"></script>
