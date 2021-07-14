@@ -53,17 +53,17 @@
                         <!-- Features -->
                         <div class="py-12">
                             <ul class="flex flex-col gap-6 text-secondary-100 text-xl">
-                                <li class="w-full flex gap-6 items-start">
+                                <li class="w-full sm:flex gap-6 items-start">
                                     <svg class="flex-shrink-0 h-16 w-16 text-secondary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                                     </svg>
-                                    <p>Deep-dive in all UI components, from Fields to Resource Tools, from Metrics to Cards. You will learn the nitty-gritty of the Nova UI framework!</p>
+                                    <p class="pt-3 sm:pt-0">Deep-dive in all UI components, from Fields to Resource Tools, from Metrics to Cards. You will learn the nitty-gritty of the Nova UI framework!</p>
                                 </li>
-                                <li class="w-full flex gap-6 items-start">
+                                <li class="w-full sm:flex gap-6 items-start">
                                     <svg class="flex-shrink-0 h-16 w-16 text-secondary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
                                     </svg>
-                                    <p>HD professional crystal clean videos, downloadable, codebase examples for each lesson, free UI Form Wizard Nova Component</p>
+                                    <p class="pt-3 sm:pt-0">HD professional crystal clean videos, downloadable, codebase examples for each lesson, free UI Form Wizard Nova Component</p>
                                 </li>
                             </ul>
                         </div>
