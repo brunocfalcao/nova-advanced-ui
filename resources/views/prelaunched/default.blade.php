@@ -41,7 +41,7 @@
 
             <!-- Hero section -->
             <section class="bg-background-900 px-6 lg:px-8">
-                <div class="bg-primary-500 max-w-screen-xl mx-auto grid grid-cols-2 gap-8 lg:gap-24 md:items-start">
+                <div class="max-w-screen-xl mx-auto grid grid-cols-2 gap-8 lg:gap-24 md:items-start">
                     <div class="col-span-2 md:col-span-1 order-2 md:order-1">
                         <h2 class="text-2xl sm:text-3xl lg:text-4xl xl:text-5xl text-primary-400 font-bold mb-6 xl:leading-tight">
                             The <i><span class="text-secondary-600">aspirin</span></i> for your Nova UI coding <i><span class="text-secondary-600">headaches</span></i>
@@ -131,7 +131,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="bg-primary-800 bgcol-span-2 md:col-span-1 flex flex-row space-x-2 order-1 md:order-2 items-center justify-center pt-4">
+                    <div class="bgcol-span-2 md:col-span-1 flex flex-row space-x-2 order-1 md:order-2 items-center justify-center pt-4">
                         <img src="/vendor/nova-advanced-ui/images/hero.jpg" alt="" class="max-w-md w-full rounded-lg">
                     </div>
                 </div>
