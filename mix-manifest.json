@@ -1,4 +1,4 @@
 {
-    "/resources/overrides/public/vendor/nova-advanced-ui/css/app.css": "/resources/overrides/public/vendor/nova-advanced-ui/css/app.css",
-    "/resources/overrides/public/vendor/nova-advanced-ui/js/retina.min.js": "/resources/overrides/public/vendor/nova-advanced-ui/js/retina.min.js"
+    "/public/vendor/nova-advanced-ui/css/app.css": "/public/vendor/nova-advanced-ui/css/app.css",
+    "/public/vendor/nova-advanced-ui/js/retina.min.js": "/public/vendor/nova-advanced-ui/js/retina.min.js"
 }

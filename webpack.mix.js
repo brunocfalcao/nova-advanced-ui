@@ -1,12 +1,5 @@
-const mix = require('laravel-mix');
+let mix = require('laravel-mix');
 
-/*
- |--------------------------------------------------------------------------
- | Eduka asset management using Laravel Mix
- |--------------------------------------------------------------------------
- |
- */
-mix.copy('resources/js/retina.min.js', 'resources/overrides/public/vendor/nova-advanced-ui/js')
-   .postCss('resources/css/app.css', 'resources/overrides/public/vendor/nova-advanced-ui/css', [
-      require("tailwindcss")
-   ]);
+if (process.env.section) {
+  require(`${__dirname}/webpack.mix.${process.env.section}.js`);
+}

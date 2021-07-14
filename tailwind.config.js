@@ -27,6 +27,16 @@ module.exports =
                 "primary": ["Nunito Sans", ...defaultTheme.fontFamily.sans],
                 "logo": ["Zen Dots", "cursive" , ...defaultTheme.fontFamily.sans]
             },
+            "maxWidth": {
+                "1/3": "33%",
+                "1/2": "50%",
+                "1/4": "25%"
+            },
+            "minWidth": {
+                "1/3": "33%",
+                "1/2": "50%",
+                "1/4": "25%"
+            }            
         }
     },
     "variants": {

@@ -131,11 +131,65 @@
             <!-- Features section -->
             <section class="px-12 xl:px-32 py-12 bg-white text-coolgray-600">
                 <p class="text-center text-2xl sm:text-3xl md:text-4xl text-coolgray-700 font-bold">Hidden Gems all the way</p>
-                <p class="text-center text-xl lg:text-xl text-coolgray-600 mt-2">Create your Nova UI components using Vue</p>
-                <div class="flex flex-wrap">
-                    <div class="w-full max-w-md flex-auto h-16 bg-primary-500">1</div>
-                    <div class="w-full max-w-md flex-auto h-16 bg-primary-300">2</div>
-                    <div class="w-full max-w-md flex-auto h-16 bg-primary-500">3</div>
+                <p class="text-center text-xl lg:text-xl text-coolgray-600 pt-2">Create your Nova UI components using Vue</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 pt-12">
+                    <!-- Feature box -->
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto s-16 text-secondary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M12 14l9-5-9-5-9 5 9 5z" />
+                            <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222" />
+                        </svg>
+                        <p class="font-bold text-lg py-2 text-center">All default UI Components taught</p>
+                        <p class="text-lg text-center">You'll learn all the default methods and attributes you can use in Fields, Cards, Panels, and Tools and the differences between them</p>
+                    </div>
+                    <!-- /Feature box -->
+                    <!-- Feature box -->
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="mx-auto s-16 text-secondary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z" />
+                        </svg>
+                        <p class="font-bold text-lg py-2 text-center">Deep dives all the way</p>
+                        <p class="text-lg text-center">We'll deep dive into the UI components framework, understand how it was built and how you can take the most advantage of building your own UI components</p>
+                    </div>
+                    <!-- /Feature box -->
+                    <!-- Feature box -->
+                    <div>
+                        <svg class="mx-auto s-16 text-secondary-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                        </svg>
+                        <p class="font-bold text-lg py-2 text-center">New components built from scratch</p>
+                        <p class="text-lg text-center">Finally, you'll learn and master how to build new components from scratch, and with advanced techniques using Vue and other tools</p>
+                    </div>
+                    <!-- /Feature box -->
+                    <!-- Feature box -->
+                    <div>
+                        <svg class="mx-auto s-16 text-secondary-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" />
+                        </svg>
+                        <p class="font-bold text-lg py-2 text-center">Professional recording videos</p>
+                        <p class="text-lg text-center">Full HD high-resolution videos, professional sound quality, and full downloaded so you can watch them offline and anytime you want</p>
+                    </div>
+                    <!-- /Feature box -->
+                    <!-- Feature box -->
+                    <div>
+                        <svg class="mx-auto s-16 text-secondary-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                        <p class="font-bold text-lg py-2 text-center">Downloadable codebase</p>
+                        <p class="text-lg text-center">Each lesson will have a downloadable codebase so you don't need to copy-paste the codebase you're learning during each tutorial</p>
+                    </div>
+                    <!-- /Feature box -->
+                    <!-- Feature box -->
+                    <div>
+                        <svg class="mx-auto s-16 text-secondary-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                        <p class="font-bold text-lg py-2 text-center">Purchase Power Parity</p>
+                        <p class="text-lg text-center">You can buy this course at a proportional discount given the country you are located. And if you pre-subscribe now, you even get an extra discount</p>
+                    </div>
+                    <!-- /Feature box -->
                 </div>
             </section>
             <!-- /Features section -->
