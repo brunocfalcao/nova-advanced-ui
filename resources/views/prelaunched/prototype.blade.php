@@ -29,7 +29,7 @@
     </x-eduka::head>
     <x-eduka::body class="font-primary bg-repeat heropattern-topography-primary-950 antialised bg-background-900">
         <x-eduka::responsive-breakpoints></x-eduka::responsive-breakpoints>
-        <div class="container mx-auto">
+        <div class="px-4 sm:px-8 md:px-12 xl:container mx-auto">
 
             <!-- Logo header -->
             <div class="pt-12 bg-background-900">
@@ -47,35 +47,35 @@
                     <!-- Left hero container -->
                     <!-- Title and subtitle -->
                     <div class="w-full md:w-1/2">
-                        <p class="text-4xl text-center sm:text-left sm:text-5xl font-bold text-primary-400 italic leading-tight pb-6">The <span class="text-secondary-600">aspirin</span> for your Nova UI coding <span class="text-secondary-600">headaches</span></p>
-                        <p class="text-2xl text-center sm:text-left font-bold text-primary-100 leading-snug">The course that will empower you to create killer, beautiful, and enhanced UI components in Laravel Nova</p>
+                        <p class="text-4xl md:text-3xl lg:text-4xl text-center sm:text-left sm:text-5xl font-bold text-primary-400 italic leading-tight pb-6">The <span class="text-secondary-600">aspirin</span> for your Nova UI coding <span class="text-secondary-600">headaches</span></p>
+                        <p class="text-2xl md:text-xl lg:text-2xl text-center sm:text-left font-bold text-primary-100 leading-snug">The course that will empower you to create killer, beautiful, and enhanced UI components in Laravel Nova</p>
                         <!-- /Title and subtitle -->
                         <!-- Features -->
                         <div class="py-12">
                             <ul class="flex flex-col gap-6 text-secondary-100 text-xl">
                                 <li class="w-full sm:flex gap-6 items-start">
-                                    <svg class="flex-shrink-0 h-16 w-16 text-secondary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <svg class="mx-auto sm:mx-0 flex-shrink-0 h-16 w-16 text-secondary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
                                     </svg>
-                                    <p class="pt-3 sm:pt-0">Deep-dive in all UI components, from Fields to Resource Tools, from Metrics to Cards. You will learn the nitty-gritty of the Nova UI framework!</p>
+                                    <p class="text-xl md:text-base lg:text-xl pt-3 sm:pt-0 text-center sm:text-left">Deep-dive in all UI components, from Fields to Resource Tools, from Metrics to Cards. You will learn the nitty-gritty of the Nova UI framework!</p>
                                 </li>
                                 <li class="w-full sm:flex gap-6 items-start">
-                                    <svg class="flex-shrink-0 h-16 w-16 text-secondary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <svg class="mx-auto sm:mx-0 flex-shrink-0 h-16 w-16 text-secondary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
                                     </svg>
-                                    <p class="pt-3 sm:pt-0">HD professional crystal clean videos, downloadable, codebase examples for each lesson, free UI Form Wizard Nova Component</p>
+                                    <p class="text-xl md:text-base lg:text-xl pt-3 sm:pt-0 text-center sm:text-left">HD professional crystal clean videos, downloadable, codebase examples for each lesson, free UI Form Wizard Nova Component</p>
                                 </li>
                             </ul>
                         </div>
                         <!-- /Features -->
                         <!-- Subscription Form -->
-                        <form class="flex gap-4 pb-3">
-                            <input placeholder="Enter email address" class="h-14 focus:outline-none bg-white border border-background-300 px-4 py-2 flex-1 rounded-lg" type="text">
-                            <button href="#" class="focus:outline-none flex-shrink-0 flex font-semibold rounded-lg">
-                                <div class="tracking-wide flex-shrink-0 p-4 bg-secondary-600 h-14 rounded-l-lg text-white">
+                        <form class="flex flex-col sm:flex-row gap-4 pb-3">
+                            <input placeholder="Enter email address" class="focus:outline-none bg-white border border-background-300 px-4 py-2 flex-1 rounded-lg" type="text">
+                            <button href="#" class="focus:outline-none flex-shrink-0 flex font-semibold rounded-lg mx-auto sm:mx-0">
+                                <div class="tracking-wide flex-shrink-0 p-3 bg-secondary-600 rounded-l-lg text-white">
                                     <div>Send me updates!</div>
                                 </div>
-                                <div class="bg-secondary-800 p-4 rounded-r-lg">
+                                <div class="bg-secondary-800 p-3 rounded-r-lg">
                                     <svg class="w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 9l3 3m0 0l-3 3m3-3H8m13 0a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                                     </svg>
