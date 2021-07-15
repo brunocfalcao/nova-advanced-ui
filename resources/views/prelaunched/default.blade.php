@@ -517,6 +517,27 @@
                 </div>
             </section>
             <!-- /FAQ section -->
+            <!-- Footer -->
+            <section class="px-12 xl:px-32 py-12 bg-background-900 text-gray-600">
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
+                    <!-- Logo image -->
+                    <img class="h-8" src="/vendor/nova-advanced-ui/images/logo.png" alt="{{ course()->name }}">
+                    <!-- /Logo image -->
+
+                    <!-- Website url -->
+                    <div class="mx-auto">
+                        {{ date('Y') }} - Bruno Falcão - All rights reserved
+                    </div>
+                    <!-- /Website url -->
+
+                    <!-- Social links -->
+                    <div class="text-right">
+                        <a href="https://twitter.com/brunocfalcao">Twitter</a>
+                    </div>
+                    <!-- /Social links -->
+                </div>
+            </section>
+            <!-- /Footer -->
         </div>
         <script type="text/javascript" src="/vendor/nova-advanced-ui/js/retina.min.js"></script>
     </x-eduka::body>
