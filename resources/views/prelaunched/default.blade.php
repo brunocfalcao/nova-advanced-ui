@@ -500,7 +500,7 @@
                     <!-- Question & answer -->
                     <div class="px-4 md:px-8 lg:px-12 py-6 lg:py-12 bg-gray-200 rounded-lg">
                         <h3 class="text-xl font-bold text-coolgray-700 block">I bought your previous Mastering Nova course. Can I have a discount on this one?</h3>
-                        <p class="mt-3">Yes you will! You will receive a <underline>personal discount of 50%</underline> (non-cumulative) for this course to thank you for your loyalty!</p>
+                        <p class="mt-3">Yes you will! You will receive a personal discount of 30% (non-cumulative) for this course to thank you for your loyalty!</p>
                     </div>
                     <!-- /Question & answer -->
                     <!-- Question & answer -->
