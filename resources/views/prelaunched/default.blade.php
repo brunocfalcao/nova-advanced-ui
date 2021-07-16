@@ -101,7 +101,7 @@
                     <!-- /Left hero container -->
                     <!-- Right hero container -->
                     <div class="w-full md:w-1/2 order-first md:order-last">
-                        <img src="@image_placeholder_url(640,640)" class="rounded-lg" />
+                        <img src="/vendor/nova-advanced-ui/images/hero.jpg" class="rounded-lg" />
                     </div>
                     <!-- /Right hero container -->
                 </div>
