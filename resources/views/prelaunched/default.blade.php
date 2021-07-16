@@ -66,9 +66,12 @@
                             </ul>
                         </div>
                         <!-- /Features -->
+                        @routename('prelaunched.welcome')
                         <!-- Subscription Form -->
-                        <form class="flex flex-col sm:flex-row gap-4 pb-3">
-                            <input placeholder="Enter email address" class="focus:outline-none bg-white border border-background-300 px-4 py-2 flex-1 rounded-lg" type="text">
+                        <form method="POST" action="{{ route('prelaunched.subscribed') }}" class="flex flex-col sm:flex-row gap-4 pb-3">
+                            @csrf
+                            @honeypot
+                            <input name="email" placeholder="Enter email address" class="focus:outline-none bg-white border border-background-300 px-4 py-2 flex-1 rounded-lg" type="text">
                             <button href="#" class="focus:outline-none flex-shrink-0 flex font-semibold rounded-lg mx-auto sm:mx-0">
                                 <div class="tracking-wide flex-shrink-0 p-3 bg-secondary-600 rounded-l-lg text-white">
                                     <div>Send me updates!</div>
@@ -80,6 +83,9 @@
                                 </div>
                             </button>
                         </form>
+                        @error('email')
+                        <p class="text-secondary-500 pb-3 font-bold">{{ $message }}</p>
+                        @enderror
                         <!-- /Subscription Form -->
                         <!-- Form disclaimers -->
                         <div class="flex gap-4 justify-center md:justify-start">
@@ -97,6 +103,10 @@
                             </div>
                         </div>
                         <!-- /Form disclaimers -->
+                        @endroutename
+                       @routename('prelaunched.subscribed')
+                        <p class="text-xl text-secondary-500 pb-3 font-bold">Thank you for your interest on my course! I'll be in touch!</p>
+                        @endroutename
                     </div>
                     <!-- /Left hero container -->
                     <!-- Right hero container -->
@@ -114,9 +124,9 @@
                 <div class="flex gap-8 flex-wrap sm:flex-nowrap">
                     <img src="/vendor/nova-advanced-ui/images/me.jpg" class="rounded-full w-40 h-40" />
                     <div class="sm:border-l-4 border-primary-200 sm:pl-8">
-                        <p class="text-lg lg:text-xl font-bold italic">After creating the first-ever premium Laravel Nova course, Mastering Nova, I'm back to record a new community-requested course about how to create and extend the Laravel Nova UI framework, so you will never be stuck to create different Vue components that will match your needs inside Nova!</p>
+                        <p class="text-lg lg:text-xl font-bold italic text-gray-800">After creating the first-ever premium Laravel Nova course, Mastering Nova, I'm back to record a new community-requested course about how to create and extend the Laravel Nova UI framework, so you will never be stuck to create different Vue components that will match your needs inside Nova!</p>
                         <p class="text-lg font-bold text-gray-700 pt-6"><a class="link" href="https://twitter.com/brunocfalcao" target="_blank">@htmlentities('Bruno Falcão')</a></p>
-                        <p class="text-base font-semibold text-gray-500">Creator of <a href="https://www.masteringnova.com" class="link" target="_blank">Mastering Nova</a>, <a href="https://github.com/laraning/nova-time-field" class="link" target="_blank">Nova Time Field</a>, <a href="https://www.laraflash.com" class="link" target="_blank">Laraflash</a>, <a href="https://www.laraning.com" class="link" target="_blank">Laraning</a> and <a href="https://github.com/brunocfalcao/blade-feather-icons" class="link" target="_blank">Feather Icons Blade Ui Kit</a></p>
+                        <p class="text-base font-semibold text-gray-800">Creator of <a href="https://www.masteringnova.com" class="link" target="_blank">Mastering Nova</a>, <a href="https://github.com/laraning/nova-time-field" class="link" target="_blank">Nova Time Field</a>, <a href="https://www.laraflash.com" class="link" target="_blank">Laraflash</a>, <a href="https://www.laraning.com" class="link" target="_blank">Laraning</a> and <a href="https://github.com/brunocfalcao/blade-feather-icons" class="link" target="_blank">Feather Icons Blade Ui Kit</a></p>
                     </div>
                 </div>
             </section>

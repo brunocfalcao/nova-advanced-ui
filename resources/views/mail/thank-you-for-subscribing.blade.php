@@ -102,7 +102,7 @@
             <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="full"  bgcolor="#f1eff2"style="background-color: #f1eff2;">
                 <tr>
                     <td align="center">
-                        <!-- ********* SignUp Notification ********* -->                        
+                        <!-- ********* SignUp Notification ********* -->
                         <!-- Mobile Wrapper -->
                         <table width="100%" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile">
                             <tr>
@@ -140,7 +140,7 @@
                                                     <table width="400" border="0" cellpadding="0" cellspacing="0" align="center" class="mobile" bgcolor="#ffffff" style="-webkit-border-top-right-radius: 6px; -moz-border-top-right-radius: 6px; border-top-right-radius: 6px; -webkit-border-top-left-radius: 6px; -moz-border-top-left-radius: 6px; border-top-left-radius: 6px;" id="not1ChangeBG" object="drag-module-small" >
                                                         <tr>
                                                             <td width="100%" valign="middle" align="center"  class="fullCenter">
-                                                                <!-- Header Text --> 
+                                                                <!-- Header Text -->
                                                                 <table width="300" border="0" cellpadding="0" cellspacing="0" align="center" style="text-align: center; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;" class="fullCenter">
                                                                     <tr>
                                                                         <td width="100%" height="40"></td>
@@ -236,7 +236,7 @@
                                 </td>
                             </tr>
                         </table>
-                        <!-- ********* END SignUp Notification ********* -->            
+                        <!-- ********* END SignUp Notification ********* -->
                     </td>
                 </tr>
             </table>
