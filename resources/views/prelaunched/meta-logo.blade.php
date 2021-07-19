@@ -8,7 +8,7 @@
     <x-eduka::body class="font-primary bg-repeat heropattern-topography-primary-990 bg-background-900">
 
     	<div class="flex justify-center items-center">
-    		<img src="vendor/nova-advanced-ui/images/temp-meta-logo.png">
+
     	</div>
 
     </x-eduka::body>
