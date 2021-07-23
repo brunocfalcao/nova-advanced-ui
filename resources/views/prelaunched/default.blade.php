@@ -28,7 +28,7 @@
                     <!-- Title and subtitle -->
                     <div class="w-full md:w-1/2">
                         <p class="text-4xl md:text-3xl lg:text-4xl text-center sm:text-left sm:text-5xl font-bold text-primary-400 italic leading-tight pb-6">The <span class="text-secondary-600">aspirin</span> for your Nova UI coding <span class="text-secondary-600">headaches</span></p>
-                        <p class="text-2xl md:text-xl lg:text-2xl text-center sm:text-left font-bold text-primary-100 leading-snug">The course that will empower you to create killer, beautiful, and enhanced UI components in Laravel Nova</p>
+                        <p class="text-2xl md:text-xl lg:text-2xl text-center sm:text-left font-bold text-primary-100 leading-snug">The course that will empower you to create killer, beautiful, and fully-functional UI components in Laravel Nova</p>
                         <!-- /Title and subtitle -->
                         <!-- Features -->
                         <div class="py-12">
