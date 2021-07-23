@@ -10,7 +10,7 @@
         <!-- /Favicon -->
     </x-eduka::head>
     <x-eduka::body class="font-primary bg-repeat heropattern-topography-primary-950 antialised bg-background-900">
-        <x-eduka::responsive-breakpoints></x-eduka::responsive-breakpoints>
+
         <div class="px-4 sm:px-8 md:px-12 xl:container mx-auto">
             <!-- Logo header -->
             <section class="pt-12 bg-background-900">
@@ -43,7 +43,7 @@
                                     <svg class="mx-auto sm:mx-0 flex-shrink-0 h-16 w-16 text-secondary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path>
                                     </svg>
-                                    <p class="text-xl md:text-base lg:text-xl pt-3 sm:pt-0 text-center sm:text-left">HD professional crystal clean videos, downloadable, codebase examples for each lesson, free UI Form Wizard Nova Component</p>
+                                    <p class="text-xl md:text-base lg:text-xl pt-3 sm:pt-0 text-center sm:text-left">Create beautiful fully customized Nova Vue components, how to leverage the UI Components that come with Nova and much more!</p>
                                 </li>
                             </ul>
                         </div>
