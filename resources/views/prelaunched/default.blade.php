@@ -10,7 +10,7 @@
         <!-- /Favicon -->
     </x-eduka::head>
     <x-eduka::body class="font-primary bg-repeat heropattern-topography-primary-950 antialised bg-background-900">
-
+        <x-eduka::responsive-breakpoints></x-eduka::responsive-breakpoints>
         <div class="px-4 sm:px-8 md:px-12 xl:container mx-auto">
             <!-- Logo header -->
             <section class="pt-12 bg-background-900">
