@@ -3,12 +3,15 @@
 namespace Eduka\NovaAdvancedUI;
 
 use Eduka\Abstracts\EdukaServiceProvider;
+use Eduka\Nereus\Nereus;
 
 class EdukaNovaAdvancedUIServiceProvider extends EdukaServiceProvider
 {
     public function boot()
     {
         $this->customViewNamespace(__DIR__.'/../resources/views', 'site');
+
+        Nereus::setCourseConfig('nova-advanced-ui');
 
         $this->publishResources();
 
