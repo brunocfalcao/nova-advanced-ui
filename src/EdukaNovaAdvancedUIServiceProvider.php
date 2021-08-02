@@ -19,7 +19,7 @@ class EdukaNovaAdvancedUIServiceProvider extends EdukaServiceProvider
          * still not be bound to a domain. So, we need to find it by
          * querying the database directly.
          */
-        //$course = Course::firstWhere('canonical', 'nova-advanced-ui');
+        $course = Course::firstWhere('canonical', 'nova-advanced-ui');
         config()->set('mail.mailers.postmark.token', $course->postmark_token);
 
         // Load extra routes test.
