@@ -8,8 +8,9 @@ class ThankYouForSubscribing extends EdukaMailable
 {
     public function build()
     {
-        app()->register($this->provider_namespace);
+        app()->register($this->course->provider_namespace);
 
-        return $this->view('site::mail.thank-you-for-subscribing');
+        return $this->from($this->course->admin_email, $this->course->admin_name)
+                    ->view('site::mail.thank-you-for-subscribing');
     }
 }
