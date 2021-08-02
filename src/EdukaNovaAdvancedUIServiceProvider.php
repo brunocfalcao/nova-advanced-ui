@@ -3,7 +3,6 @@
 namespace Eduka\NovaAdvancedUI;
 
 use Eduka\Abstracts\EdukaServiceProvider;
-use Eduka\Nereus\Nereus;
 
 class EdukaNovaAdvancedUIServiceProvider extends EdukaServiceProvider
 {
@@ -12,6 +11,9 @@ class EdukaNovaAdvancedUIServiceProvider extends EdukaServiceProvider
         $this->customViewNamespace(__DIR__.'/../resources/views', 'site');
 
         $this->publishResources();
+
+        // Configure postmark token in the mail.php config file.
+        config()->set('mail.mailers.postmark.token', course()->postmark_token);
 
         // Load extra routes test.
         $this->extraRoutes(__DIR__.'/../routes/extra.php');
