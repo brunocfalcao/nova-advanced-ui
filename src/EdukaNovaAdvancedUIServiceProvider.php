@@ -11,8 +11,6 @@ class EdukaNovaAdvancedUIServiceProvider extends EdukaServiceProvider
     {
         $this->customViewNamespace(__DIR__.'/../resources/views', 'site');
 
-        Nereus::setCourseConfig('nova-advanced-ui');
-
         $this->publishResources();
 
         // Load extra routes test.
