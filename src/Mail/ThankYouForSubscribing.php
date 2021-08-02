@@ -6,13 +6,10 @@ use Eduka\Abstracts\EdukaMailable;
 
 class ThankYouForSubscribing extends EdukaMailable
 {
-    public function __construct()
-    {
-        //
-    }
-
     public function build()
     {
+        app()->register($this->provider_namespace);
+
         return $this->view('site::mail.thank-you-for-subscribing');
     }
 }
