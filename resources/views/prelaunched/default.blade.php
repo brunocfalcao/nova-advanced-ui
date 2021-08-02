@@ -480,7 +480,7 @@
                     <!-- Question & answer -->
                     <div class="px-4 md:px-8 lg:px-12 py-6 lg:py-12 bg-gray-200 rounded-lg">
                         <h3 class="text-xl font-bold text-coolgray-700 block">I am new to Nova. Is this course for me?</h3>
-                        <p class="mt-3">Unfortunately it is not. This course needs intermediate experience in using Laravel Nova and Vue. You should look at my other course, <a class="link" href="https://www.masteringnova.com" target="_blank">Mastering Nova</a>, and if you buy it, you'll have 50% discount in this one.</p>
+                        <p class="mt-3">Unfortunately it is not. This course needs intermediate experience in using Laravel Nova and Vue. You should look at my other course, <a class="link" href="https://www.masteringnova.com" target="_blank">Mastering Nova</a>, and if you buy it, you'll have 30% discount in this one.</p>
                     </div>
                     <!-- /Question & answer -->
                     <!-- Question & answer -->

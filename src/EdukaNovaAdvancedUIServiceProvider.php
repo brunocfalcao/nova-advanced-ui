@@ -17,7 +17,7 @@ class EdukaNovaAdvancedUIServiceProvider extends EdukaServiceProvider
          * Configure the postmark token. It can't run under the course()
          * helper because if a job triggers this service provider, it will
          * still not be bound to a domain. So, we need to find it by
-         * querying the database directly.
+         * querying the course canonical directly.
          */
         $course = Course::firstWhere('canonical', 'nova-advanced-ui');
         config()->set('mail.mailers.postmark.token', $course->postmark_token);
