@@ -100,7 +100,7 @@
                                                                                                 <tbody>
                                                                                                     <tr>
                                                                                                         <td style="width:150px;">
-                                                                                                            <img height="auto" src=""{{ url('/vendor/nova-advanced-ui/images/mail-logo.jpg') }}" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="150">
+                                                                                                            <img height="auto" src="{{ url('/vendor/nova-advanced-ui/images/mail-logo.jpg') }}" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="150">
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
@@ -348,7 +348,7 @@
                                                                                                                                 <tr>
                                                                                                                                     <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
                                                                                                                                         <div style="font-family:Muli, Arial, sans-serif;font-size:14px;line-height:22px;text-align:left;color:#000000;">
-                                                                                                                                            <p>Super happy for your interest in my course! Promise I'll keep you updated with news on a monthly basis at least. No Spam!</p>
+                                                                                                                                            <p>Super happy about your interest in my course! Promise I'll keep you updated on a monthly basis. No Spam!</p>
                                                                                                                                         </div>
                                                                                                                                     </td>
                                                                                                                                 </tr>
@@ -404,7 +404,7 @@
                                                                                                                                 <tr>
                                                                                                                                     <td align="left" style="font-size:0px;padding:0;word-break:break-word;">
                                                                                                                                         <div style="font-family:Muli, Arial, sans-serif;font-size:14px;line-height:22px;text-align:left;color:#000000;">
-                                                                                                                                            <p>Also you'll have a special discount coupon I'll send you near the launch date!</p>
+                                                                                                                                            <p>Also, you'll have a special discount coupon I'll send you near the launch date!</p>
                                                                                                                                         </div>
                                                                                                                                     </td>
                                                                                                                                 </tr>
