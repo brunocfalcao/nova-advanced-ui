@@ -86,7 +86,7 @@
                                                                                                 <tbody style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;">
                                                                                                     <tr style="-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;">
                                                                                                         <td style="width: 150px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;" width="150">
-                                                                                                            <img height="auto" src="{{ $course->url . 'vendor/nova-advanced-ui/images/mail-logo.jpg' }}" style="border: 0; display: block; outline: none; text-decoration: none; height: auto; width: 100%; font-size: 13px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;" width="150">
+                                                                                                            <img height="auto" src="{{ $url . '/vendor/nova-advanced-ui/images/mail-logo.jpg' }}" style="border: 0; display: block; outline: none; text-decoration: none; height: auto; width: 100%; font-size: 13px; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;" width="150">
                                                                                                         </td>
                                                                                                     </tr>
                                                                                                 </tbody>
